@@ -1,0 +1,1 @@
+This project constructed with 1 STM32F4 Discovery board and 3 arduino nano/uno MCUs. The aim is to build standard CAN 2.0A communication around multiple nodes. So, MCUs are preffered as sensor modules (Nodes). 
