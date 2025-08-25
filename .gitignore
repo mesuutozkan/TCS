@@ -1,0 +1,43 @@
+# ---- Genel ----
+*.swp
+*.bak
+*.tmp
+*.log
+
+# ---- STM32CubeIDE ----
+**/.settings/
+**/.project
+**/.cproject
+**/.mxproject
+**/.loadpath
+**/.metadata/
+**/Debug/
+**/Release/
+**/*.launch
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.list
+**/*.srec
+**/*.o
+**/*.d
+
+# CubeMX output
+*.ioc
+
+# ---- Arduino IDE ----
+# Arduino build output
+*.hex
+*.elf
+*.eep
+*.bin
+*.lst
+
+# Arduino CLI / IDE cache
+**/build/
+**/.arduino/
+
+# ---- OS Specific ----
+.DS_Store        # macOS
+Thumbs.db        # Windows
